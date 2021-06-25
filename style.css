@@ -1,0 +1,128 @@
+/* RESET'S */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+i{
+    color: #fff;
+    margin-right: 20px;
+    
+}
+
+.icon_navbar{
+    margin-right: 30px;   
+    position:relative;
+    top: calc(50% - 10px);
+}
+
+ul{
+  
+}
+
+.container {
+    width: 90%;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    
+}
+
+.container_lat {
+    width: 22.5%; /*Tamanho da barra lateral*/
+    height: 100vh; /*Altura da barra lateral -- FALTA REGULAR*/
+    background-color:#180daf /*#E4E2E2 -  Cor original do projeto*/
+    
+}
+
+#header {
+    width: 100%; /**/
+    height: 60px; /**/
+    background-color: rgb(119, 43, 43); /**/
+}
+
+.primary-nav { /*Ajustes da Navbar*/
+    display: flex;
+    height: 100%;
+    width: 100%;
+    height: 3.5rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-header ul {
+    display: flex;
+}
+
+.nav-header a {
+    font-size: 20px;
+    color: white;
+    font-weight: 700 bold;
+}
+
+.nav-header li:not(:first-child){
+    margin-left: 2.5rem;
+}
+
+.user { /*Ajustes da parte do usuário*/
+    display: flex;
+    color: white;
+    margin-right: 2rem;
+}
+
+.user i{ 
+    margin-right: 1.56rem;
+    font-size: 20px;
+    margin-top: 5px; /**/
+}
+    
+.user p {
+    font-size: 20px;
+    margin-right: 1.56rem;
+}
+
+.btn_sair {
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;  
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #DC3C3C;
+    border-radius: 5px;
+    margin:auto;
+    display:block;
+    margin-top: 60px;
+  }
+
+.user_change{
+    font-size: 15px;
+    color:#6F6F6F;
+    text-align: center;
+}
+
+.latbar_txt{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    color:#6F6F6F;
+}
